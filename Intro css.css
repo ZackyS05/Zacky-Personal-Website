@@ -1,0 +1,92 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("dallas-divide.jpg");
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+ul{
+    float:right;
+    list-style-type: none;
+}
+
+ul li{
+    
+    display: inline-block;
+    margin-top: 25px;
+    margin-right: 10px;
+  
+}
+    
+
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+
+   
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color:#000;
+
+}
+
+ul li.active a{
+    background-color: #fff;
+    color:#000;
+
+}
+h2{
+    color:#fff;
+    font-size: 70px;
+    text-align: center;
+    margin: 45px;
+
+}
+
+p{
+    color:#fff;
+    text-align: center;
+    margin:20px;
+    font-size: 30px;
+    border: solid 4px white;
+    padding: 20px;
+    
+
+}
+
+img{
+    float: right;
+    margin: 50px;
+    width: 500px;
+    border: solid 7px darkgoldenrod;
+    border-radius: 10px;
+  
+}
+
+.img2 {
+    float:left;
+    margin: 50px;
+    width: 500px;
+    border: solid 7px darkgoldenrod;
+    border-radius: 10px;
+}
+
+.h2f{
+    text-align: center;
+}
